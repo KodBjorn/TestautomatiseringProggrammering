@@ -26,7 +26,7 @@ public class Main {
 
                 readWrite.write("Please type the morse that you want to translate");
                 readWrite.write("When typeing morse use / to signal a new letter and // to signal a new word");
-                readWrite.write("Use _ and . to represent short and long signals");
+                readWrite.write("Use _ and . to represent long and short signals");
                 convert.convertMorse(readWrite.read());
                 readWrite.write(convert.getText());
 
